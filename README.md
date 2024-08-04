@@ -1,46 +1,45 @@
-# p2p-messaging
-Peer-to-Peer Communication System: A Node.js application for managing peer registrations, connections, and messaging in a P2P network. Includes a server and client components.
+  # Peer-to-Peer Messaging System
 
-# Peer-to-Peer Messaging System
+This project is a simple peer-to-peer (P2P) messaging system built with Node.js. It includes both server and client components, allowing users to register, connect to peers, and exchange messages.
 
-این پروژه یک سیستم پیام‌رسانی همتا به همتا (P2P) ساده است که شامل یک سرور و کلاینت است. کاربران می‌توانند با ثبت‌نام، اتصال به همتایان دیگر، و ارسال پیام‌ها ارتباط برقرار کنند.
+## Installation
 
-## نصب
-
-1. **کلون کردن مخزن:**
+1. **Clone the repository:**
     ```bash
     git clone https://github.com/yourusername/your-repo.git
     ```
 
-2. **نصب وابستگی‌ها:**
+2. **Install dependencies:**
     ```bash
     cd your-repo
     npm install
     ```
 
-## راه‌اندازی سرور
+## Server Setup
 
-1. **اجرا کردن سرور:**
+1. **Run the server:**
     ```bash
     node server.js
     ```
-    سرور به صورت پیش‌فرض روی پورت `3000` در حال اجرا است.
+    The server will start on port `3000` by default.
 
-## راه‌اندازی کلاینت
+## Client Setup
 
-1. **اجرا کردن کلاینت:**
+1. **Run the client:**
     ```bash
     node peer.js <username> <ip> <port>
     ```
-    - `username`: نام کاربری منحصر به فرد برای شناسایی
-    - `ip`: آدرس IP محلی
-    - `port`: پورتی که کلاینت در آن گوش می‌دهد
+    - `<username>`: Unique username for identification
+    - `<ip>`: Local IP address
+    - `<port>`: Port where the client listens for connections
 
-## استفاده
+## Usage
 
-- **دستورات کلاینت:**
-  - `connect <ip> <port>`: اتصال به همتای مشخص
-  - `list`: نمایش لیست همتایان در دسترس
-  - `unregister`: لغو ثبت‌نام و خروج از برنامه
+- **Client Commands:**
+  - `connect <ip> <port>`: Connect to a specified peer
+  - `list`: Show available peers
+  - `unregister`: Unregister and exit the application
 
->>>>>>> eab7805 (Initial commit)
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
