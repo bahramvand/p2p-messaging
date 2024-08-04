@@ -6,12 +6,12 @@ This project is a simple peer-to-peer (P2P) messaging system built with Node.js.
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
+    git clone https://github.com/bahramvand/p2p-messaging.git
     ```
 
 2. **Install dependencies:**
     ```bash
-    cd your-repo
+    cd p2p-messaging
     npm install
     ```
 
